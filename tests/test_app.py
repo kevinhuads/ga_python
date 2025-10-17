@@ -1,4 +1,4 @@
-from app import main
+from app.main import main
 
 def test_main_default():
     assert main('world') == 'Hello from Python app, world!'
